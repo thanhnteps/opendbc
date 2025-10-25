@@ -42,6 +42,7 @@ GEAR_SHIFTER_MAP: dict[str, structs.CarState.GearShifter] = {
   'S': GearShifter.sport, 'SPORT': GearShifter.sport,
   'L': GearShifter.low, 'LOW': GearShifter.low,
   'B': GearShifter.brake, 'BRAKE': GearShifter.brake,
+  '11': GearShifter.regenBraking,
 }
 
 TorqueFromLateralAccelCallbackType = Callable[[float, structs.CarParams.LateralTorqueTuning, bool], float]

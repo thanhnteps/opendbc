@@ -260,6 +260,7 @@ struct CarState {
     brake @7;
     eco @8;
     manumatic @9;
+    regenBraking @10;
   }
 
   # send on change
